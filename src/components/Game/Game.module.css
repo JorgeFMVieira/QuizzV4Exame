@@ -1,0 +1,30 @@
+.level{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.level button{
+    background-color: transparent;
+    color: #000000;
+    border-radius: 15px;
+    border: 2px solid #FF7B00;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.nvl{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
